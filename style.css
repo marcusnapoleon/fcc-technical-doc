@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Hind+Guntur|Sedgwick+Ave|Roboto');
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+}
+
+
+
+
+html,body{
+  	
+    color: lightslategray;
+    font-family: "Roboto", cursive;
+    line-height: 1.5;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: rgb (218 218 218);
+}
+#navbar{
+  position:fixed;
+  background-color: lightslategray;
+  top:0px;
+  left:0px;
+  width:30%;
+  height:100%;
+  
+}
+header h3{
+  color: white;
+	text-shadow:  0 0 15px skyblue, 0 0 20px skyblue, 0 0 30px skyblue, 0 0 45px skyblue, 0 0 65px skyblue;
+  font-size: 1.8em;
+  margin:0px;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+	border-bottom: 2px solid white;
+	width: 100%;
+	font-weight: bolder;
+}
+.main-section header{
+  text-align: left;
+  margin: 0px;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
+#nav { 
+	
+		flex-direction: column;
+		height: 100%;
+		display: flex;
+		font-size: 1.3em;
+		overflow: auto;
+		position: relative;
+	}
+#navbar a{
+  
+    text-decoration:none;
+    cursor:pointer;
+} 
+
+.nav-link {
+	padding-left: 40px;
+	color: white;
+	margin-top: 10px;
+	
+}
+
+.nav-link:hover {
+	color: whi;
+	transform: scaleX(1.02);
+	font-weight: bolder;
+	text-shadow:  0 0 5px skyblue, 0 0 10px skyblue, 0 0 20px skyblue, 0 0 30px skyblue, 0 0 40px skyblue;
+}
+#main-doc{
+  position: absolute;
+  margin-left: 31%;
+  padding: 20px;
+  margin-bottom:100px;
+   	
+}
+ p::first-letter {
+	font-size: 30px;
+	 
+	 color: lightslategray;
+}
+.back-to-top{
+	text-align: center;
+	display: none;
+	font-size: 1.0em;
+	font-weight: bolder;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.back-to-top a {
+	border: 1px solid red;
+	text-decoration: none;
+	padding: 2px 15px;
+	border-radius: 10px
+		
+	
+}
+
+.main-doc-imgs {
+	display: flex;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+code{
+  display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    line-height: 2;
+    background-color:#494a50;
+    justify-content: center;
+	margin-left: auto;
+  	margin-right: auto;
+    border-radius:5px;
+	color: white;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+.w3c-editor-link {
+	width: 130px;
+	height: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	background-color: #3adf4a;
+	text-align: center;
+}
+
+.w3c-editor-link a{
+  	color: white;
+    text-decoration:none;
+    cursor:pointer;
+	font-weight: bolder;
+} 
+
+
+
+.color-grid {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 35px;
+  	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+}
+
+#blue-hello-world {
+	line-height: 50px;
+	padding: 0 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+
+#tomato-lorem-ipsum {
+	
+	line-height: 200px;
+	padding: 0 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: tomato;
+	border-radius: 5px;
+	
+}
+
+#tomato-lorem-ipsum p{
+	line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+	width: 90%;
+	padding-left: auto;
+	padding-left: auto;
+}
+
+.border-colors {
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+
+.color-value {
+	height: 40px;
+	width: 100%;
+	padding: 15px 5px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	vertical-align: middle;
+	background-color: tomato;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+#img-block-3pics {
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+.img-block {
+	width: 100%;
+	height: 250px;
+}
+
+#img-map {
+	width: 400px;
+	height: 379px;
+
+}
+
+#w3-logo {
+	width: 104px; 
+	height: 142px;
+	margin-left: 10%;
+}
+
+#w3-logo:hover {
+	transform: scale(1.3);
+	transition-duration: 1.5s;
+}
+
+@media only screen and (max-width: 1920px) {
+	
+	.color-grid {
+	display: grid;
+	grid-template-columns: 45% 45%;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+  	color: white;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+	
+	.color-grid-2 {
+	display: grid;
+	grid-template-columns: 45% 45%;
+	grid-template-rows: 100px 100px 100px ;
+	grid-gap: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-align: center;
+	justify-content: center;
+}
+	
+	#navbar{
+  position:fixed;
+  background-color: lightslategray;
+  top:0px;
+  left:0px;
+  width:30%;
+  height:100%;
+  
+}
+	
+}
+
+
+@media only screen and (max-width: 1280px) {
+	
+	.color-grid {
+	display: grid;
+	grid-template-columns: 45% 45%;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+  	color: white;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+	
+	.color-grid-2 {
+	display: grid;
+	grid-template-columns: 45% 45% ;
+	grid-template-rows: 100px 100px 100px;
+	grid-gap: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+  	color: white;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+	
+	
+	#navbar{
+  position:fixed;
+  background-color: lightslategray;
+  top:0px;
+  left:0px;
+  width:30%;
+  height:100%;
+  
+}
+	#blue-hello-world {
+	
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+
+#tomato-lorem-ipsum {
+	
+	line-height: 200px;
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: tomato;
+	border-radius: 5px;
+	
+}
+
+#tomato-lorem-ipsum p{
+	line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+	width: 90%;
+	padding-left: auto;
+	padding-left: auto;
+}
+
+.border-colors {
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+	
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #nav { 
+	background-color: lightslategray;
+		flex-direction: column;
+		height: 30VH;
+		display: flex;
+		font-size: 1.4em;
+		overflow-y: scroll;
+	  overflow-x: hidden;
+		position: relative;
+	   border-bottom: 3px solid white;
+	  padding-top: 10px;
+	  padding-bottom: 20px;
+	}
+	
+	
+    #navbar{
+      background-color: lightslategray;
+      position:absolute;
+      top:0;
+      padding:0;
+      margin: 0;
+      width:100%;
+      height:25VH;
+      border-bottom: 2px solid #4d4e53;
+      z-index:1;
+      
+    }
+	
+    #main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:45vh;
+	  
+    }
+ 
+	code{
+    width:100%;
+	font-size: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+.back-to-top{
+	text-align: center;
+	display: block;
+	font-size: 1em;
+	margin-top: 20VH;
+	
+}
+	.color-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+  	color: white;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+	
+	.color-grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 100px 100px 100px;
+	grid-gap: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+  	color: white;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+	
+	#blue-hello-world {
+	
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+
+#tomato-lorem-ipsum {
+	
+	line-height: 200px;
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: tomato;
+	border-radius: 5px;
+	
+}
+
+#tomato-lorem-ipsum p{
+	line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+	width: 90%;
+	padding-left: auto;
+	padding-left: auto;
+}
+
+.border-colors {
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+	
+	
+	
+}
+	
+@media only screen and (max-width: 414px) {
+  
+  code{
+    
+    width:100%;
+	font-size: .8em;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	#main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:40vh;
+	  
+    }
+	
+	.color-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 60px;
+	grid-gap: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+  	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	font-weight: bolder;
+		justify-content: center;
+}
+	
+	.color-grid-2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 60px;
+	grid-gap: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+  	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	font-weight: bolder;
+		justify-content: center;
+	 
+}
+	#img-block-3pics {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	
+}
+
+	#blue-hello-world {
+	
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+
+#tomato-lorem-ipsum {
+	
+	line-height: 200px;
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	background-color: tomato;
+	border-radius: 5px;
+	
+}
+
+#tomato-lorem-ipsum p{
+	line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+	width: 90%;
+	padding-left: auto;
+	padding-left: auto;
+}
+
+.border-colors {
+	
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+	
+	.color-value {
+	height: 40px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	vertical-align: middle;
+	background-color: tomato;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+	
+	#img-map {
+	width: 335px;
+	height: 317px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}	
+	
+}
